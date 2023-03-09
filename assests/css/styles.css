@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+h1{
+  font-size: 50px;
+  margin: 0%;
+}
 img {
   display: block;
   margin-left: auto;
@@ -13,8 +17,8 @@ hr {
 }
 body {
     margin: 0;
-  font-family: comic sans ms;
-  background-color: #f1f1f1;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darkgray;
 }
 
 header {
@@ -28,30 +32,21 @@ header {
 
 nav {
   float: left;
-  width: 29%;
+  width: 25%;
   background: darkgray;
   padding: 10px;
-  text-align: center;
-  height: 600px;
+  text-align: left;
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type:disc;
 }
 
 article {
   float: left;
   padding: 10px;
-  width: 71%;
-  background-color: #f1f1f1;
-  height: 600px;
-}
-
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+  width: 75%;
+  background-color:rgba(251, 248, 255, 0.705);
 }
 
 @media (max-width: 600px) {
